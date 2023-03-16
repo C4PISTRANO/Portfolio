@@ -4,5 +4,129 @@
 	margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
     font-family: 'Open Sans', sans-serif; 
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+    backdrop-filter: blur(20px);
+    /*border-bottom: 2px solid rgba(255,255,255,0.05);*/
+}
+
+header .logo {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2em;
+
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    gap: 40px;
+}
+
+header ul li {
+list-style: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.25em;
+}
+
+header ul li.active a,
+header ul li:hover a{
+    color: goldenrod;
+}
+
+#home {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+
+}
+
+#home::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50vw;
+    height: 25vw;
+    background: goldenrod;
+    border-top-right-radius: 25vw;
+    border-top-left-radius: 25vw;
+}
+
+#home .content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 650px;
+    z-index: 10;
+}
+
+#home .content h2 {
+    position: relative;
+    font-size: 4em;
+    color: goldenrod;
+}
+
+#home .content p {
+    position: relative;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    color: #fff;
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    font-size: 1.25em;
+    max-width: 200px;
+    background: goldenrod;
+    color: #222;
+    text-align: center;
+    padding: 18px 30px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+#home .photo {
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    max-height: 90vh;
+
+}
+
+#habilidades,
+#portfolio,
+#contato {
+    position: relative;
+    background: #34353a;
+    min-height: 100vh;
+    padding: 120px 100px;
 }
