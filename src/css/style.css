@@ -192,7 +192,7 @@ header ul li:hover a{
 
 #services .content .servicesBx:hover img {
     opacity: 1;
-    filter: invert(0);
+    /*filter: invert(0);*/
 }
 
 #services .content .servicesBx h3 {
