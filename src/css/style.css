@@ -107,7 +107,8 @@ header ul li:hover a{
     position: relative;
     display: inline-block;
     font-size: 1.25em;
-    max-width: 200px;
+    max-width: 300px;
+    width: 300px;
     background: goldenrod;
     color: #222;
     text-align: center;
@@ -270,4 +271,122 @@ header ul li:hover a{
 .copyrights a {
     color: goldenrod;
     text-decoration: none;
+}
+
+/*responsive*/
+@media (max-width: 900px){
+    header {
+        padding: 20px 50px;
+    }
+    #home {
+        padding: 150px 50px;
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+    #home .content h2 {
+        font-size: 4em;
+    }
+    .btn {
+        max-width: 300px;
+        padding: 10px 20px;
+        width: 280px;
+    }
+    #home .photo {
+        position: absolute;
+        height: 50vh;
+        right: 0;
+    }
+    .secText h2 {
+        font-size: 2em;
+        text-align: center;
+    }
+    #services,
+    #portfolio,
+    #contact {
+      padding: 100px 50px 50px;  
+    }
+    #services .content,
+    #portfolio .content,
+    #contact .content {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .menuToggle
+    {
+        position: relative;
+        width: 30px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .menuToggle::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background: #fff;
+        transform: translateY(-10px);
+        transition: 0.5s;
+        box-shadow: 0 10px #fff;
+    }
+    .menuToggle::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background: #fff;
+        transform: translateY(10px);
+        transition: 0.5s;
+    }
+    header.active .menuToggle::before {
+        transform: translateY(0px) rotate(45deg);
+        box-shadow: 0 0 #fff;
+    }
+    header.active .menuToggle::after {
+        transform: translateY(0px) rotate(315deg);
+        box-shadow: 0 0 #fff;
+    }
+    header ul {
+        display: none;
+    }
+    header.active ul {
+        position: fixed;
+        left: 0;
+        top: 83px;
+        width: 100%;
+        height: calc(100vh - 83px);
+        background: rgba(50, 50, 50, 0.95);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 10000;
+        gap: 20px;
+    }
+    header.active ul li a {
+        font-size: 2em;
+    }
+}
+@media (max-width: 700px) {
+    #home .content h2 {
+        font-size: 3em;
+    }
+    #home::before {
+        width: 80vw;
+        height: 40vw;
+        border-top-right-radius: 80vw;
+        border-top-left-radius: 80vw;
+    }
+    #home .photo {
+        height: 40vh;
+    }
+    #services .content,
+    #portfolio .content,
+    #contact .content {
+        grid-template-columns: repeat(1,1fr);
+    }
+    #contact .content a {
+        height: 80px;
+    }
 }
