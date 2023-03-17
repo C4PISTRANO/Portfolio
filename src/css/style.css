@@ -274,6 +274,13 @@ header ul li:hover a{
 }
 
 /*responsive*/
+@media (max-width: 1200px) {
+    #services .content,
+    #portfolio .content,
+    #contact .content {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
 @media (max-width: 900px){
     header {
         padding: 20px 50px;
@@ -368,7 +375,7 @@ header ul li:hover a{
         font-size: 2em;
     }
 }
-@media (max-width: 700px) {
+@media (max-width: 750px) {
     #home .content h2 {
         font-size: 3em;
     }
