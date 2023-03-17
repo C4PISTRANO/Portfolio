@@ -126,11 +126,81 @@ header ul li:hover a{
 
 }
 
-#habilidades,
+#services,
 #portfolio,
 #contato {
     position: relative;
     background: #34353a;
     min-height: 100vh;
     padding: 120px 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secText {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secText h2 {
+    font-size: 3em;
+    color: #fff;
+}
+
+.secText p {
+    max-width: 700px;
+    font-size: 1.1em;
+    color: #aaa;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+#services .content {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    margin: 40px 0;
+}
+
+#services .content .servicesBx {
+    background: #2e2f34;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid #2e2f34;
+
+}
+
+#services .content .servicesBx:hover {
+    border: 2px solid goldenrod;
+}
+
+#services .content .servicesBx img {
+    max-width: 100px;
+    filter: invert(1);
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+#services .content .servicesBx:hover img {
+    opacity: 1;
+    filter: invert(0);
+}
+
+#services .content .servicesBx h3 {
+    color: goldenrod;
+    font-weight: 500;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
 }
