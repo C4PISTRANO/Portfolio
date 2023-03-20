@@ -94,6 +94,17 @@ header ul li:hover a{
     position: relative;
     font-size: 6em;
     color: goldenrod;
+    transition: 0.5s;
+}
+
+#home .content h2 span:hover {
+    visibility: hidden;
+}
+
+#home .content h2 span:hover::before {
+    content:'4PISTRANO';
+    visibility: visible;
+    
 }
 
 #home .content p {
@@ -118,6 +129,12 @@ header ul li:hover a{
     letter-spacing: 0.05em;
     text-decoration: none;
     margin-top: 10px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    color: #fff;
+    
 }
 
 #home .photo {
@@ -216,16 +233,36 @@ header ul li:hover a{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 20px;
-    margin: 40px;
+    margin: 20px 400px;
 }
 
 #portfolio .content .imgbx {
     position: relative;
 }
 
-#portfolio .content .imgbx img {
+#portfolio .content img {
+    border: 2px solid #ffffff00;
     max-width: 100%;
+    height: 25vh;
+    transition: 0.5s;
+    
 }
+
+#portfolio .content img:hover {
+    border: 2px solid goldenrod;
+    scale: 130%;
+}
+
+#portfolio .link-repo a {
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+#portfolio .link-repo a:hover {
+    color: #fff;
+} 
 
 #contact .content {
     display: grid;
@@ -274,6 +311,11 @@ header ul li:hover a{
 .copyrights a {
     color: goldenrod;
     text-decoration: none;
+    transition: 0.5s;
+}
+
+.copyrights a:hover {
+    color: #fff;
 }
 
 /*responsive*/
