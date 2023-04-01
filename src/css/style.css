@@ -19,7 +19,7 @@ header {
     align-items: center;
     z-index: 10000;
     backdrop-filter: blur(20px);
-    /*border-bottom: 2px solid rgba(255,255,255,0.05);*/
+    border-bottom: 2px solid rgba(255,255,255,0.05);
 }
 
 header .logo {
@@ -92,19 +92,9 @@ header ul li:hover a{
 
 #home .content h2 {
     position: relative;
-    font-size: 6em;
+    font-size: 7em;
     color: goldenrod;
     transition: 0.5s;
-}
-
-#home .content h2 span:hover {
-    visibility: hidden;
-}
-
-#home .content h2 span:hover::before {
-    content:'4PISTRANO';
-    visibility: visible;
-    
 }
 
 #home .content p {
@@ -112,7 +102,7 @@ header ul li:hover a{
     font-size: 1.2em;
     line-height: 1.6em;
     color: #fff;
-    max-width: 700px;
+    max-width: 1200px;
 }
 
 .btn {
@@ -226,25 +216,30 @@ header ul li:hover a{
 
 #portfolio {
     background: #2e2f34;
+    width: 100%;
     text-align: center;
+
 }
 
 #portfolio .content {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 20px;
-    margin: 20px 400px;
+    margin: 20px 0px;
 }
 
 #portfolio .content .imgbx {
-    position: relative;
+    position: absolute;
+    display: flex;
+    margin: auto;
 }
 
 #portfolio .content img {
     border: 2px solid #ffffff00;
-    max-width: 100%;
-    height: 25vh;
+    max-width: 600px;
+    /*height: 30vh;*/
     transition: 0.5s;
+    margin: auto;
     
 }
 
@@ -319,7 +314,37 @@ header ul li:hover a{
 }
 
 /*responsive*/
-@media (max-width: 1200px) {
+@media (max-width: 1580px) {
+    #home .content h2 {
+        font-size: 6.5em;
+    }
+    #home .content p {
+        font-size: 1.2em;
+        line-height: 1.6em;
+        max-width: 800px;
+    }
+    #home::before {
+        width: 50vw;
+        height: 25vw;
+        border-top-right-radius: 80vw;
+        border-top-left-radius: 80vw;
+    }
+    #home .photo {
+        height: 55vh;
+    }
+    #contact .content a {
+        height: 80px;
+    }
+}
+@media (max-width: 1215px) {
+    #home .content h2 {
+        font-size: 5.5em;
+    }
+    #home .content p {
+        font-size: 1.2em;
+        line-height: 1.6em;
+        max-width: 650px;
+    }
     #services .content,
     #portfolio .content,
     #contact .content {
@@ -420,7 +445,7 @@ header ul li:hover a{
         font-size: 2em;
     }
 }
-@media (max-width: 750px) {
+@media (max-width: 768px) {
     #home .content h2 {
         font-size: 3em;
     }
@@ -441,4 +466,44 @@ header ul li:hover a{
     #contact .content a {
         height: 80px;
     }
+}
+@media (max-width: 300px) {
+    header img {
+        width: 200px;
+        height: auto;
+        align-items: center;
+    }
+    #home {
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        background: #222;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
+    
+    }
+    #home .content h2 {
+        font-size: 1.7em;
+    }
+    #home::before {
+        width: 80vw;
+        height: 40vw;
+        border-top-right-radius: 80vw;
+        border-top-left-radius: 80vw;
+    }
+    #home .photo {
+        height: 40vh;
+        padding-top: 80px;
+    }
+    #services .content,
+    #portfolio .content,
+    #contact .content {
+        grid-template-columns: repeat(1,1fr);
+    }
+    #contact .content a {
+        height: 80px;
+    }
+
 }
