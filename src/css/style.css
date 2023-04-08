@@ -119,6 +119,7 @@ header ul li:hover a{
     letter-spacing: 0.05em;
     text-decoration: none;
     margin-top: 10px;
+    margin-bottom: 10px;
     transition: 0.5s;
 }
 
@@ -263,6 +264,7 @@ header ul li:hover a{
     color: goldenrod;
     font-size: 1.5em;
     margin-right: 10px;
+    margin-left: 10px;
     transition: 0.5s;
 }
 
@@ -479,9 +481,36 @@ header ul li:hover a{
         height: 80px;
     }
 }
-@media (max-width: 300px) {
+@media (max-width: 570px) {
     header img {
         width: 200px;
+        height: auto;
+        align-items: center;
+    }
+    #home .content h2 {
+        font-size: 2.5em;
+    }
+    #home::before {
+        display: none;
+    }
+    #home .photo {
+        display: none;
+    }
+    .btn {
+        max-width: 200px;
+    }
+    #services .content,
+    #portfolio .content,
+    #contact .content {
+        grid-template-columns: repeat(1,1fr);
+    }
+    #contact .content a {
+        height: 80px;
+    }
+}
+@media (max-width: 340px) {
+    header img {
+        width: 175px;
         height: auto;
         align-items: center;
     }
@@ -496,18 +525,11 @@ header ul li:hover a{
         padding: 50px;
     
     }
-    #home .content h2 {
-        font-size: 1.7em;
+    #home .content {
+        margin-top: 50px;
     }
-    #home::before {
-        width: 80vw;
-        height: 40vw;
-        border-top-right-radius: 80vw;
-        border-top-left-radius: 80vw;
-    }
-    #home .photo {
-        height: 40vh;
-        padding-top: 80px;
+    .btn {
+        max-width: 180px;
     }
     #services .content,
     #portfolio .content,
