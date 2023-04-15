@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: url(../img/bg6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body .logo{
+  height: 50px;
+  display: flex;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+
+.container {
+  width: 400px;
+  display: flex;
+
+  background-color: #242b25;
+  color: #fff;
+  padding: 30px;
+  border-radius: 7px;
+  backdrop-filter: blur(2px);
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.4);
+  
+}
+
+.main {
+  width: 100%;
+  
+}
+
+.main .form {
+  display: flex;
+  flex-direction: column;
+}
+
+.main .header {
+  text-align: center;
+}
+
+.main .header h2 {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  color: rgb(50, 140, 0);
+}
+
+.main .header p {
+  margin-bottom: 15px;
+  color: rgb(255, 255, 255);
+  font-size: 0.95rem;
+}
+
+.main .form label {
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  color: rgb(0, 0, 0);
+}
+
+.main .form input {
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
+  outline: none;
+  border: 1px solid rgba(35, 35, 35, 0.3);
+  color: rgb(0, 0, 0);
+  font-size: 1.1rem;
+  padding: 0 10px;
+  margin-bottom: 3px;
+}
+
+.main .form input:focus {
+  border: 1px solid #159910;
+}
+
+.main .form button {
+  height: 40px;
+  border-radius: 3px;
+  border: none;
+  background-color: #13860f;
+  color: #fff;
+  font-size: 1.1rem;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.main .form button:hover {
+  background-color: #159910;
+}
+
+.main .form button:active {
+  border: #000000;
+  transform: scale(0.99);
+  filter: brightness(50%);
+   
+}
+
+.errorInput {
+  border: 2px solid rgb(207, 53, 53) !important;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #159910;
+  text-decoration: #393131;
+}
+
+footer {
+	text-align: center;
+	padding: 2rem 0 0rem;
+	color: #fff;
+	opacity: 1;
+
+  display: flex;
+  
+	align-items: center;
+}
