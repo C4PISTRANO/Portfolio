@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://raphaelcapistrano.dev.br/</title>
+  <link>https://raphaelcapistrano.dev.br/</link>
+
+<item>
+     <link>https://raphaelcapistrano.dev.br/</link>
+     <title>Raphael Capistrano</title>
+     <description>Portfolio Raphael Capistrano, Desenvolvedor de Software. 
+                                      Criação de sites e funcionalidades com arquitetura e 
+                                      linguagens de programação para Desenvolvimento Web. 
+                                      Controle de versão via Git / GitHub. Estilização de Páginas. 
+                                      Aplicação de Layout Responsivo. Consumo de APIs e Serviços Web. 
+                                      Pr</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raphaelcapistrano.dev.br/src/CV_RaphaelCapistrano_DesenvFrontEnd.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raphaelcapistrano.dev.br/portfolio/dev.finance/</link>
+     <title>dev.finance$</title>
+     <description>dev.finance$</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raphaelcapistrano.dev.br/portfolio/form.dev/</link>
+     <title>Formulário de Cadastro</title>
+     <description>Formulário de Cadastro</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raphaelcapistrano.dev.br/portfolio/endless.nightmare/</link>
+     <title>EndlessNightmare</title>
+     <description>EndlessNightmare</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raphaelcapistrano.dev.br/portfolio/pagina.links/</link>
+     <title>Página de Links - C4PISTRANO</title>
+     <description>Página de Links - C4PISTRANO</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raphaelcapistrano.dev.br/portfolio/pesquisa.covid/</link>
+     <title>Pesquisa Covid-19</title>
+     <description>Pesquisa Covid-19</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raphaelcapistrano.dev.br/portfolio/happy.new.year/</link>
+     <title>Happy New Year</title>
+     <description>Happy New Year</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
