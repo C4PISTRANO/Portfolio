@@ -10,3 +10,16 @@ let header = document.querySelector('header');
 menuToggle.onclick = function(){
     header.classList.toggle('active');
 }
+
+var btn = document.querySelector('#show-or-hide');
+var content2 = document.querySelector('.content2');
+
+btn.addEventListener('click', function() {
+    if(content2.style.display === 'block' || content2.style.display === 'grid') {
+        content2.style.display = 'none';
+        
+    }
+    else {
+        content2.style.display = 'grid';
+    }
+})

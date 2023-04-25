@@ -222,7 +222,8 @@ header ul li:hover a{
 
 }
 
-#portfolio .content {
+#portfolio .content,
+#portfolio .content2 {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 20px;
@@ -231,14 +232,21 @@ header ul li:hover a{
     justify-content: center;
 }
 
-#portfolio .content img {
+#portfolio .content2 {
+    display: none;
+    margin: 0px 0px;
+}
+
+#portfolio .content img,
+#portfolio .content2 img {
     border: 3px solid #ffffff00;
     /*height: 30vh;*/
     transition: 0.5s;
     width: 100%; 
 }
 
-#portfolio .content img:hover {
+#portfolio .content img:hover,
+#portfolio .content2 img:hover {
     border: 3px solid goldenrod;
 }
 
@@ -361,6 +369,7 @@ header ul li:hover a{
     }
     #services .content,
     #portfolio .content,
+    #portfolio .content2,
     #contact .content {
         grid-template-columns: repeat(2,1fr);
     }
@@ -398,6 +407,7 @@ header ul li:hover a{
     }
     #services .content,
     #portfolio .content,
+    #portfolio .content2,
     #contact .content {
         grid-template-columns: repeat(2,1fr);
     }
@@ -474,6 +484,7 @@ header ul li:hover a{
     }
     #services .content,
     #portfolio .content,
+    #portfolio .content2,
     #contact .content {
         grid-template-columns: repeat(1,1fr);
     }
@@ -501,6 +512,7 @@ header ul li:hover a{
     }
     #services .content,
     #portfolio .content,
+    #portfolio .content2,
     #contact .content {
         grid-template-columns: repeat(1,1fr);
     }
@@ -533,6 +545,7 @@ header ul li:hover a{
     }
     #services .content,
     #portfolio .content,
+    #portfolio .content2,
     #contact .content {
         grid-template-columns: repeat(1,1fr);
     }
