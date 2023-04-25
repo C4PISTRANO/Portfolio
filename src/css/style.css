@@ -121,6 +121,7 @@ header ul li:hover a{
     margin-top: 10px;
     margin-bottom: 10px;
     transition: 0.5s;
+    border: none;
 }
 
 .btn:hover {
