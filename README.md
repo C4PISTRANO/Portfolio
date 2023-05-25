@@ -8,7 +8,7 @@ Portfolio pessoal, onde falo um pouco sobre mim, apresento meus serviços, proje
 
 Nesse projeto além da codificação da página, aprendi sobre criação e registro de domínio, hospedagem, 
 criação e configuração de e-mail personalizado, utilizei ferramentas para testes e fiz a otimização de desempenho, 
-fiz a otimização para os mecanismos de busca e aprendi a fazer a indexação do meu site para a pesquisa no Google.
+fiz a otimização para os mecanismos de busca - SEO e aprendi a fazer a indexação do meu site para a pesquisa no Google.
 
 Foram utilizadas funções para o menu de navegação e ativar/desativar conteúdo, layout
 responsivo, estilização com glassmorfismo, menu de navegação, transição suave entre
