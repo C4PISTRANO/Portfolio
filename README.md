@@ -19,6 +19,12 @@ as seções, consumo de API do WhatsApp.
 Você pode acessar o Portfolio clicando em [https://raphael.capistrano.dev.br](https://raphaelcapistrano.dev.br/)
 
 ## :stopwatch: Desempenho
-https://pagespeed.web.dev/analysis/https-raphaelcapistrano-dev-br/ag5t7y8lga?form_factor=desktop
+
+Teste de desempenho do meu portfolio, utilizando a ferramenta PageSpeed.
+Feito otimização do código-fonte, tipos de imagens, meta tags, acessibilidade, responsividade e melhores práticas de desenvolvimento.
+
+O site está como o melhor desempenho possível.
 ![PreviewDesempenho1](https://github.com/C4PISTRANO/Portfolio/assets/80759812/4960bd65-d96d-45f6-9189-71474e777d2f)
+
+Acesse em: https://pagespeed.web.dev/analysis/https-raphaelcapistrano-dev-br/ag5t7y8lga?form_factor=desktop 
 
