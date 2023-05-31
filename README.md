@@ -28,3 +28,4 @@ O site está como o melhor desempenho possível.
 
 Acesse em: https://pagespeed.web.dev/analysis/https-raphaelcapistrano-dev-br/ag5t7y8lga?form_factor=desktop 
 
+🇨 🇦 🇵 🇮 🇸 🇹 🇷 🇦 🇳 🇴
