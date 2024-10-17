@@ -1,6 +1,6 @@
 <h1>Desafio 1 - Landing page com apresentação do lançamento de um game.</h1>
 
-<img src="preview.jpg">
+<img src="preview1.jpg">
 
 <h3>Foram utilizados os seguintes serviços:</h3>
 
